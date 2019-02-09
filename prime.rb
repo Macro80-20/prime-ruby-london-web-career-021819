@@ -1,11 +1,11 @@
 # Add  code here!
 
-def prime?(num)
-for d in 2..(num - 1)
-     if (num % d) == 0
-      return false
-     end
+def prime?(number)
+  if number >= 2
+    (2..number - 1).all? do |x|
+      number % x != 0
     end
-
-    true
-   end
+  else
+    return false
+  end
+end
