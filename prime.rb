@@ -1,8 +1,10 @@
 # Add  code here!
 
 def prime?(num)
-while num % 1 != 0
-    return false
-end
-return true
+  loop do
+if 
+   num % 1 = 0
+    return true
+else
+return 
 end
