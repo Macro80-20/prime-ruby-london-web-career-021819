@@ -2,9 +2,9 @@
 
 def prime?(num)
   loop do
-if 
+if
    num % 1 != 0
     return true
 else
-return 
+return
 end
