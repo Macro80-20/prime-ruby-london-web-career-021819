@@ -6,6 +6,6 @@ for d in 2..(num - 1)
       return false
      end
     end
-  
+
     true
    end
